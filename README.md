@@ -22,8 +22,8 @@ The conversion was necessary for the proper training via ImageDataGenerator
 ## Functionality
 The script `sleep_detection.py` contains several functions:
 - `classify_faces(img)`: This function takes an image as input, detects faces in the image, and classifies each face as 'Awake' or 'Sleepy'. It also draws bounding boxes around the sleepy faces, labels them and counts the number of faces that were detected as sleepy.
-- `process_image(image_path)`: This function reads an image from the specified path, processes it, and passes it to `classify_faces(img)` for face detection and classification.
-- `process_video(video_path)`: This function reads a video from the specified path, processes each frame, and passes them to `classify_faces(img)` for the same.
+- `process_image(image_path)`: This function reads an image from the specified path, processes it, and passes it to classify_faces(img) for face detection and classification.
+- `process_video(video_path)`: This function reads a video from the specified path, processes each frame, and passes them to classify_faces(img) for the same.
 - `image_interface(image)`: This function provides an interface for processing images which is then consolidated in the tabbed interface of gradio
 - `video_interface(video_path)`: Same as the previous, it provides an interface for the processing of videos
 
