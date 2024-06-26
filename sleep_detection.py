@@ -154,7 +154,7 @@ def process_video(video_path):
 def image_interface(image):
     temp_input = tempfile.NamedTemporaryFile(delete=False, suffix='.jpg')
     image.save(temp_input.name)
-    result_image, detection_info = process_image(temp_input.name)
+    result_image, detection_info = process_image(temp_input.name)  # using temporary files as the process_image function expects a file path
     temp_output = tempfile.NamedTemporaryFile(delete=False, suffix='.jpg')
     cv2.imwrite(temp_output.name, result_image)
     return temp_output.name, detection_info
