@@ -10,7 +10,7 @@ base_dir = os.getcwd()
 saved_model_dir = os.path.join(base_dir, 'saved_model')
 
 # Loading the trained CNN model
-model = load_model(saved_model_dir)
+model = load_model('sleep_detection_model.keras')
 
 
 # Initializing the MTCNN face detector
