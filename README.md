@@ -36,5 +36,9 @@ The script `sleep_detection.py` contains several functions:
 The deployment of this project was done using `Gradio` and it is hosted on `Hugging Face Spaces`
 Link to the website:- https://huggingface.co/spaces/Cosmos48/gradio-sleep_detection
 
+## Video Showcase
+
+https://github.com/user-attachments/assets/9b00b813-61d5-4292-92d8-8076f4fa3797
+
 ## Author
 Joy Biswas
